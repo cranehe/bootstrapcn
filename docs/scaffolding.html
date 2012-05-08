@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>框架 · Twitter Bootstrap</title>
+    <title>框架 · Twitter Bootstrap中文版/中文翻译</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -82,13 +82,13 @@
       <header class="jumbotron subhead" id="overview">
         <h1>框架</h1>
         <p class="lead">
-	  Bootstrap创建了一个响应式的12列栅格系统，并且包括基于该系统的固定(fixed)布局和流式宽度(fluid-width)布局。
+	  Bootstrap创建了响应式的12列栅格系统，并在该系统的基础上设计了固定(fixed)布局和流动宽度(fluid-width)布局。
 	</p>
         <div class="subnav">
           <ul class="nav nav-pills">
             <li><a href="#global">全局样式</a></li>
             <li><a href="#gridSystem">栅格系统</a></li>
-            <li><a href="#fluidGridSystem">流式栅格系统</a></li>
+            <li><a href="#fluidGridSystem">流动栅格系统</a></li>
             <li><a href="#gridCustomization">自定义</a></li>
             <li><a href="#layouts">布局</a></li>
             <li><a href="#responsive">响应式设计</a></li>
@@ -109,7 +109,7 @@
     <div class="span4">
       <h2>要求HTML5 doctype</h2>
       <p>
-	Bootstrap使用的HTML元素和CSS属性需要HTML5 doctype。在确保在每个使用Bootstrap的页面中都包启HTML5声明。
+	Bootstrap用到的HTML元素和CSS属性需要HTML5 doctype。因此每个使用Bootstrap的页面都应该包启HTML5声明。
       </p>
 <pre class="prettyprint linenums">
 &lt;!DOCTYPE html&gt;
@@ -120,22 +120,22 @@
     </div><!-- /.span -->
     <div class="span4">
       <h2>排版和链接</h2>
-      <p>在 <strong>scaffolding.less</strong> 文件中，设置了基础的全局显示效果，排版和链接样式。具体来说，我们:</p>
+      <p>在 <strong>scaffolding.less</strong> 文件中，设置了基本的全局显示效果，排版和链接样式。具体来说，我们:</p>
       <ul>
         <li>移除了body的margin</li>
         <li>设置 <code>body</code> 背景色为 <code>background-color: white;</code> </li>
-        <li>使用 <code>@baseFontFamily</code>, <code>@baseFontSize</code>, and <code>@baseLineHeight</code> 属性做为排版的基础</li>
-        <li>通用 <code>@linkColor</code> 设置全局链接颜色，只在 <code>:hover</code> 时才显示下划线</li>
+        <li>将 <code>@baseFontFamily</code>, <code>@baseFontSize</code>, 和 <code>@baseLineHeight</code> 做为排版的基础变量</li>
+        <li>使用 <code>@linkColor</code> 设置全局链接的颜色，链接仅在 <code>:hover</code> 状下显示下划线</li>
       </ul>
     </div><!-- /.span -->
     <div class="span4">
-      <h2>通过Normalize重置</h2>
+      <h2>通过Normalize重置默认样式</h2>
       <p>
-	从Bootstrap 2开始，已发展为使用 <a href="http://necolas.github.com/normalize.css/" target="_blank">Normalize.css</a> 对传统的CSS进行重置(rest)。
-	 <a href="http://necolas.github.com/normalize.css/" target="_blank">Normalize.css</a> 项目由 <a href="http://twitter.com/necolas" target="_blank">Nicolas Gallagher</a> 创建，同时也为 <a href="http://html5boilerplate.com" target="_blank">HTML5 Boilerplate</a> 项目所用。
+	从Bootstrap 2开始，使用 <a href="http://necolas.github.com/normalize.css/" target="_blank">Normalize.css</a> 对默认的CSS进行重置(reset)。
+	 <a href="http://necolas.github.com/normalize.css/" target="_blank">Normalize.css</a> 项目由 <a href="http://twitter.com/necolas" target="_blank">Nicolas Gallagher</a> 创建 <a href="http://html5boilerplate.com" target="_blank">HTML5 Boilerplate</a> 项目也出于他手。
       </p>
       <p>
-	新的reset代码仍能在 <strong>reset.less</strong> 中找到，但出于简洁和准确的考虑，很多元素已从中移除。
+	新的reset代码保存在 <strong>reset.less</strong> ，并移除了一些元素，从而更加简洁明了。
       </p>
     </div><!-- /.span -->
   </div><!-- /.row -->
@@ -148,7 +148,7 @@
 ================================================== -->
 <section id="gridSystem">
   <div class="page-header">
-    <h1>默认栅格系统 <small>响应式组合的12列系统</small></h1>
+    <h1>默认栅格系统 <small>响应式的12列系统</small></h1>
   </div>
 
   <div class="row show-grid">
@@ -187,7 +187,7 @@
 	做为框架默认的一部分，Bootstrap提供了<strong>940px宽, 12列的栅格系统</strong>。
       </p>
       <p>
-	针对各种不同的设备和分辨率，Bootstrap提供了四种可响应性方案：手机，垂直平板，水平平板/小型桌面，宽屏桌面。
+	针对各种不同的设备和分辨率，Bootstrap提供了四种响应式方案：手机，垂直平板，水平平板/小型桌面，宽屏桌面。
       </p>
     </div><!-- /.span -->
     <div class="span4">
@@ -200,7 +200,7 @@
     </div><!-- /.span -->
     <div class="span4">
       <p>
-	如我们所见，一个基本的布局可以用两个“列”来创建，栅格系统由一系列横跨12等分的"span*"组成。
+	如左，一个基本的布局由两个“列”组成，栅格系统由一系列横跨12等分的"span*"组成。
       </p>
     </div><!-- /.span -->
   </div><!-- /.row -->
@@ -232,13 +232,13 @@
   <div class="row">
     <div class="span6">
       <p>
-	在Bootstrap中使用静态(non-fluid)栅格是很容易完成内嵌的，
-	只要在一个已有的 <code>.span*</code> 列中，添加一个新的 <code>.row</code> 列，并在 <code>.row</code> 列中再添加一组 <code>.span*</code> 列即可。
+	在Bootstrap中使用静态(non-fluid)栅格很容易实现内嵌，
+	只要在一个已存在的 <code>.span*</code> 列中，嵌套一个新的 <code>.row</code> 列，然后在 <code>.row</code> 列中再添加一组 <code>.span*</code> 列即可。
       </p>
       <h3>例子</h3>
       <p>
-	内嵌的行应该包含多个列，行的 <code>span*</code> 应该是几个列 <code>span*</code> 之和。
-	例如，两个内嵌的 <code>.span3</code> 列应该位于 <code>.span6</code> 列之内。
+	内嵌的行应该包含多个列，行的 <code>span*</code> 应该是几个内嵌列 <code>span*</code> 之和。
+	例如，两个内嵌的 <code>.span3</code> 列应该包含在 <code>.span6</code> 列中。
       </p>
       <div class="row show-grid">
         <div class="span6">
@@ -315,7 +315,7 @@
     <div class="span4">
       <h3>基于百分比，而非像素</h3>
       <p>
-	流式栅格系统中的列宽使用百分比而非像素。与像素栅格布局一样，Bootstrap根据设备和分辨率不同提供了不同的响应性方案。
+	流式栅格系统中的列宽使用百分比计算宽度而非像素。与像素栅格布局一样，Bootstrap根据设备和分辨率不同提供了不同的响应性方案。
       </p>
     </div><!-- /.span -->
     <div class="span4">
@@ -339,7 +339,7 @@
   <div class="row">
     <div class="span6">
       <p>
-	流式列的内嵌稍稍有点不同：内嵌列的宽度与父级无关，而要视同级列而定，因为所有的内嵌列按比例分配父列的100%宽度。
+	流式列的内嵌稍稍有点不同：内嵌列的宽度与父级无关，而要视兄弟列而定，因为所有的内嵌列都是按比例分配父列的100%宽度。
       </p>
       <div class="row-fluid show-grid">
         <div class="span12">
@@ -415,21 +415,21 @@
     <div class="span4">
       <h3>LESS中的变量</h3>
       <p>
-	Bootstrap内置了一组很有用的变量，用以定制上艺术品的默认940px栅格系统。这些变量保存在variables.less中。
+	Bootstrap内置了一组很有用的变量，用以定制上述的默认940px栅格系统。这些变量保存在variables.less中。
       </p>
     </div><!-- /.span -->
     <div class="span4">
       <h3>如何定制</h3>
       <p>
 	修改栅格意味着改变三个 <code>@grid*</code> 变量并要重新编译Bootstrap。
-	改变variables.less中的栅格变量，再使用<a href="less.html#compiling">四种方式重编译less</a>。
-	要添加更多列，就确保这些CSS已经添加到grid.less中。
+	改变variables.less中的栅格变量，再使用<a href="less.html#compiling">四种方式中的某一种重编译less</a>。
+	在添加更多列之前，要先在grid.less在定义这三个变量。
       </p>
     </div><!-- /.span -->
     <div class="span4">
       <h3>保持响应性</h3>
       <p>
-	定制栅格只能工作在默认的940px下，若要保证Bootstrap的全面响应性，还得更改responsive.less中的栅格内容。
+	定制的栅格只能工作在默认的940px下，若要保证Bootstrap的全面响应性，还得更改responsive.less中的栅格内容。
       </p>
     </div><!-- /.span -->
   </div><!-- /.row -->
@@ -442,14 +442,14 @@
 ================================================== -->
 <section id="layouts">
   <div class="page-header">
-    <h1>布局 <small>基础模板创建网页</small></h1>
+    <h1>布局 <small>用基础模板创建网页</small></h1>
   </div>
 
   <div class="row">
     <div class="span6">
       <h2>固定布局</h2>
       <p>
-	用 <code>&lt;div class="container"&gt;</code> 实现的简单的默认940px宽，中央布局的页面。
+	用 <code>&lt;div class="container"&gt;</code> 实现的简单的中央布局的页面，默认为940px宽。
       </p>
       <div class="mini-layout">
         <div class="mini-layout-body"></div>
@@ -465,7 +465,7 @@
     <div class="span6">
       <h2>流式布局</h2>
       <p>
-	<code>&lt;div class="container-fluid"&gt;</code> 提供灵活的页面结构，定义了最小和最大宽度，有一个左边栏。很适合做应用和文档。
+	<code>&lt;div class="container-fluid"&gt;</code> 提供灵活的页面结构，定义了最小和最大宽度，拥有一个左边栏。很适合做应用和文档。
       </p>
       <div class="mini-layout fluid">
         <div class="mini-layout-sidebar"></div>
@@ -494,29 +494,29 @@
 ================================================== -->
 <section id="responsive">
   <div class="page-header">
-    <h1>响应式设计 <small>Media根据设备和分辨率的不同而使用不同样式</small></h1>
+    <h1>响应式设计 <small>Media Query根据设备和分辨率的不同而使用不同样式</small></h1>
   </div>
   <!-- Supported devices -->
   <div class="row">
     <div class="span4">
       <p><img src="assets/img/responsive-illustrations.png" alt="Responsive devices"></p>
-      <h3>能做什么？</h3>
+      <h3>响应式设计用来做什么？</h3>
       <p>
-	Medias查询允许基于不同的条件:如宽高比，宽度，显示类型等等，使用不同的CSS。但最常用的还是围绕 <code>min-width</code> 和 <code>max-width</code> 这两个条件。
+	Medias Query允许浏览器基于不同的条件而使用不同的CSS：比如宽高比，宽度，显示类型等等。但最常用的条件还是 <code>min-width</code> 和 <code>max-width</code> 。
       </p>
       <ul>
         <li>在栅格中修改列的宽度</li>
-        <li>凡是必要的地方都用栈元素代替浮动元素</li>
-        <li>为了更好的阅读体验，要根据不同设备重新标题和文本的大小</li>
+        <li>堆叠元素，而不是让其浮动</li>
+        <li>根据不同设备重置标题和文字的大小，以获得更好的阅读体验。</li>
       </ul>
       <p>
-	谨慎地使用media查询，建议仅仅将其做为你的手机用户的初体验。对于大型项目而言，最好还是选择专业的代码库，而不是进行层层的media查询。
+	谨慎地使用media query，建议仅仅将其做为你的手机用户的初体验。对于大型项目而言，最好还是选择专业的代码库，而不是进行层层的media查询。
       </p>
     </div><!-- /.span -->
     <div class="span8">
       <h2>支持的设备</h2>
       <p>
-	Bootstrap在responsive.less文件中提供了一组media查询，使你的项目更方便地适应多种设备和分辨率。包括：
+	Bootstrap在responsive.less文件中提供了一组media query，令你的项目可以更为便捷地适应多种设备和分辨率。包括：
       </p>
       <table class="table table-bordered table-striped">
         <thead>
@@ -561,7 +561,7 @@
 
       <h3>要求有meta标签</h3>
       <p>
-	要确保设备能正常显示响应式页面，就得添加添加meat标签
+	要确保设备能正常显示响应式页面，就要添加meat标签
       </p>
       <pre class="prettyprint linenums">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</pre>
     </div><!-- /.span -->
@@ -570,19 +570,19 @@
   <br>
 
   <!-- Media query code -->
-  <h2>使用media查询</h2>
+  <h2>使用media query</h2>
   <div class="row">
     <div class="span4">
       <p>
-	Bootstrap不会自动包含这些media查询，但理解和添加它们是非常容易的事情，只要一点点设置。
-	你只要如下这般即可在Bootstrap中包含响应式特性:
+	Bootstrap不会自动包含media query，但理解和添加media query却是非常容易。
+	如下这般，即可在Bootstrap中包含响应式特性:
       </p>
       <ol>
         <li>使用编译后的bootstrap-responsive.css</li>
         <li>添加 @import "responsive.less" ，然后重新编译Bootstrap</li>
         <li>修改并重编译responsive.less为一个单独的文件</li>
       </ol>
-      <p><strong>为什么不直接包含它呢?</strong> 说实话，不是什么应用都需要响应性设计，它不是必须的。 与其让开发者移除这个特性，不如由我们来将其分离。</p>
+      <p><strong>为什么不直接包含它呢?</strong> 说实话，并不是什么应用都需要响应性设计，响应性不是必须的。 与其让开发者移除这个特性，不如由我们动手。</p>
     </div><!-- /.span -->
     <div class="span8">
 <pre class="prettyprint linenums">
@@ -608,21 +608,20 @@
     <div class="span4">
       <h3>介绍</h2>
       <p>
-	对于更快捷的面向手机友好的开发而言，使用这些基础的实用类能做到根据设备的不同而显示或是隐藏内容。
+	为了更高效友好地面向手机开发，可以使用这些基础实用类根据设备的不同决定内容的显示或隐藏。
       </p>
       <h3>何时适用</h2>
       <p>
-	你的网站已经有了一点基础，但不想再为不同设备而重新创建一个完全不同的站点，这时就适时用这些类来完善呈现的效果。
+	你的网站已经有了一点底子，但并不想再为不同设备而重新创建一个完全不同的站点，这种情况就适合使用实用类来完善呈现效果。
       </p>
       <p>
-	例如，你权权想在手机浏览时显示一个 <code>&lt;select&gt;</code> 元素，而在使用平板和桌面浏览时，就不显示。
+	例如，你仅仅想在使用手机浏览时显示 <code>&lt;select&gt;</code> 做为导航，而在使用平板和桌面浏览时，就隐藏起来。
       </p>
     </div><!-- /.span -->
     <div class="span8">
       <h3>支持的类</h3>
       <p>
-	Shown here is a table of the classes we support and their effect on a given media query layout (labeled by device). 
-	这里展示了可使用的类，以及它们在media查询（由设备标识）下的效果。
+	下面展示了可用的类，及其在media query（由设备标识）下的效果。
 	这些类保存在 <code>responsive.less</code> 。
       </p>
       <table class="table table-bordered table-striped responsive-utilities">
@@ -675,7 +674,7 @@
       </table>
       <h3>测试案例</h3>
       <p>
-	改变你的浏览器尺寸，或是不在同的设备上浏览，查看上述类的效果。
+	改变你的浏览器尺寸，或是不在同的设备上浏览，以观察上述类的效果。
       </p>
       <h4>显示...</h4>
       <ul class="responsive-utilities-test">
@@ -703,8 +702,8 @@
      <!-- Footer
       ================================================== -->
      <footer class="footer">
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>我们倾注世间之爱于设计与创作 <a href="http://twitter.com/twitter" target="_blank">@twitter</a> by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
+        <p class="pull-right"><a href="#">回到顶端</a></p>
+        <p>我们倾注世间之爱于设计与创作 <a href="http://twitter.com/twitter" target="_blank">@twitter</a> by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>，由<a href="http://weibo.com/tvlikedev">Tvlike.me/TV来客开发者</a>翻译</p>
         <p>开源依照 <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a> 发布。 文档依照 <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a> 发布。</p>
         <p>Icons取自 <a href="http://glyphicons.com">Glyphicons Free</a>，授权依照 <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>。</p>
       </footer>
