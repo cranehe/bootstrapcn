@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Components · Twitter Bootstrap</title>
+    <title>组件 · Twitter Bootstrap中文版/中文翻译</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -82,7 +82,7 @@
 <header class="jumbotron subhead" id="overview">
   <h1>组件</h1>
   <p class="lead">
-    Bootstrap内置几十种高可用的组件，以提供导航栏，警告，弹出框等功能。
+    Bootstrap内置几十种高可用的组件，以实现导航栏，通知，弹出框等功能。
   </p>
   <div class="subnav">
     <ul class="nav nav-pills">
@@ -119,7 +119,7 @@
 ================================================== -->
 <section id="buttonGroups">
   <div class="page-header">
-    <h1>按钮组 <small>添加更多类似工具条的功能按钮</small></h1>
+    <h1>按钮组 <small>添加更多按钮，实现类似工具条功能</small></h1>
   </div>
   <div class="row">
     <div class="span4">
@@ -130,27 +130,27 @@
       </p>
       <h3>最佳实践</h3>
       <p>
-	我们建议使用按钮组和工具条时应遵循下列建议：
+	我们建议使用按钮组和工具条时应遵循下列准则：
       </p>
       <ul>
         <li>
 	  在一个按钮组中只使用一种元素， <code>&lt;a&gt;</code> 或 <code>&lt;button&gt;</code> 。
 	</li>
         <li>
-	  不要在同一个按钮组中使用不同颜色的按钮。
+	  不要在同一个按钮组中使用不同按钮颜色。
 	</li>
         <li>
-	  使用图标补充说明或代替文本时，应包含说明性的alt或title文字。
+	  使用图标补充内容或直接替代文本时，应包含说明性的alt或title文字。
 	</li>
       </ul>
       <p><span class="label label-info">补充</span> 
-	下面会单独强调带下拉框的按钮组，其包含一个下拉三角以表示可点击下拉。
+	下面会单独强调带下拉框的按钮组，其包含一个下拉/上弹三角以表示可点击触发下拉/上弹。
       </p>
     </div>
     <div class="span4">
       <h3>默认例子</h3>
       <p>
-	用锚标签按钮构建的标准按钮组：
+	用 <code>button</code> 标签按钮构建的标准按钮组：
       </p>
       <div class="">
         <div class="btn-group" style="margin: 9px 0;">
@@ -168,7 +168,7 @@
 </pre>
       <h3>工具条的例子</h3>
       <p>
-	集合几组 <code>&lt;div class="btn-group"&gt;</code> ，放入 <code>&lt;div class="btn-toolbar"&gt;</code> 内就可以合成工具条组件。
+	集合几组 <code>&lt;div class="btn-group"&gt;</code> ，再用 <code>&lt;div class="btn-toolbar"&gt;</code> 包装就可以合成工具条组件。
       </p>
       <div class="btn-toolbar">
         <div class="btn-group">
@@ -202,7 +202,7 @@
       <p><a class="btn js-btn" href="./javascript.html#buttons">获取相关的javascript &raquo;</a></p>
       <h3>按钮组中的下拉项</h3>
       <p><span class="label label-info">强调!</span> 
-	为了得到正常的渲染结果，带下拉项的按钮应该被 <code>.btn-group</code> 嵌套，然后置入 <code>.btn-toolbar</code> 内。
+	为了渲染正常，带下拉项的按钮应该被 <code>.btn-group</code> 嵌套，然后再放入 <code>.btn-toolbar</code> 内。
       </p>
     </div>
   </div>
@@ -214,7 +214,7 @@
 ================================================== -->
 <section id="buttonDropdowns">
   <div class="page-header">
-    <h1>按钮下拉菜单 <small>基于按钮组提供上下文菜单</small></h1>
+    <h1>按钮下拉菜单 <small>基于按钮组提供下拉菜单</small></h1>
   </div>
 
   <h2>下拉按钮</h2>
@@ -222,7 +222,7 @@
     <div class="span4">
       <h3>简介和例子</h3>
       <p>
-	下拉菜单中的按钮应该被 <code>.btn-group</code> 嵌套。
+	下拉菜单中的按钮嵌套于 <code>.btn-group</code> 内。
       </p>
       <div class="btn-toolbar" style="margin-top: 18px;">
         <div class="btn-group">
@@ -302,7 +302,7 @@
     <div class="span8">
       <h3>标记例子</h3>
       <p>
-	和按钮组类似，下拉按钮仍使用按钮标记，不过会用到少量其他标记以增强样式效果，同时支持Bootstrap的下拉jquery插件。
+	和按钮组类似，下拉按钮仍使用按钮标记，并用到少量其他标记以增强显示效果，同时支持Bootstrap的下拉jquery插件。
       </p>
 <pre class="prettyprint linenums">
 &lt;div class="btn-group"&gt;
@@ -321,7 +321,7 @@
     <div class="span4">
       <h3>适应所有按钮的尺寸</h3>
       <p>
-	下拉按钮适应任何大小，可以是 <code>.btn-large</code>, <code>.btn-small</code>, 或 <code>.btn-mini</code> 。
+	下拉按钮适应任何尺寸，可以是 <code>.btn-large</code>, <code>.btn-small</code>, 或 <code>.btn-mini</code> 。
       </p>
       <div class="btn-toolbar" style="margin-top: 18px;">
         <div class="btn-group">
@@ -359,21 +359,21 @@
     <div class="span4">
       <h3>需要Javascript</h3>
       <p>
-	下接按钮需要 <a href="./javascript.html#dropdowns">Bootstrap下拉插件</a> 以实现功能。
+	下拉按钮需要 <a href="./javascript.html#dropdowns">Bootstrap下拉插件</a> 实现功能。
       </p>
       <p>
-	在某些情况下（诸如手机），下拉菜单会超出可视区域。这时要么手动对齐，要么使用定制的javascript。
+	在某些情况下（诸如使用手机浏览），下拉菜单会超出可视区域。这时要么手动对齐，要么使用定制的javascript。
       </p>
     </div><!--/span-->
   </div><!--/row-->
   <br>
 
-  <h2>间隔下拉按钮</h2>
+  <h2>带间隔的下拉按钮</h2>
   <div class="row">
     <div class="span4">
       <h3>简介和例子</h3>
       <p>
-	按钮组的样式和标记之上，我们能够很方便的创建下拉按钮间隔。间隔左侧是按钮，右侧是下拉链接。
+	在按钮组的样式和标记的基础上，我们可以很方便的创建带间隔的下拉按钮。间隔左侧是按钮，右侧是下拉链接。
       </p>
       <div class="btn-toolbar" style="margin-top: 18px;">
         <div class="btn-group">
@@ -513,7 +513,7 @@
     <div class="span8">
       <h3>标记的例子</h3>
       <p>
-	我们对普通的下拉按钮进行扩展，从而将下拉区域独立出来，可单独点击收放菜单。
+	我们对普通的下拉按钮进行扩展，将下拉区域独立出来，可对其单独点击收放菜单。
       </p>
 <pre class="prettyprint linenums">
 &lt;div class="btn-group"&gt;
@@ -528,7 +528,7 @@
 </pre>
       <h3>上弹菜单</h3>
       <p>
-	下拉菜单也可以变成上弹菜单，只要在 <code>.dropdown-menu</code> 最近的父标签上添加 <code>.dropup</code> 类即可。它会改变
+	下拉菜单也可以变成上弹菜单，只要在 <code>.dropdown-menu</code> 最近的父标签上应用 <code>.dropup</code> 即可。它会改变
 	 <code>.caret</code> 的箭头方向，并将菜单底部与按钮顶部对齐。
       <div class="btn-toolbar" style="margin-top: 9px;">
         <div class="btn-group dropup">
@@ -576,10 +576,10 @@
 ================================================== -->
 <section id="navs">
   <div class="page-header">
-    <h1>导航，标签页，胶囊链接 <small>高度可定制的列表导航</small></h1>
+    <h1>导航，标签页，胶囊链接 <small>定制性强的列表导航</small></h1>
   </div>
 
-  <h2>轻量的默认项 <small>同样的标记，不同的类</small></h2>
+  <h2>轻巧的默认项 <small>同样的标记，不同的类</small></h2>
   <div class="row">
     <div class="span4">
       <h3>强大的基类</h3>
@@ -592,13 +592,13 @@
       </p>
       <h3>组件对齐</h3>
       <p>
-	使用 <code>.pull-left</code> 或 <code>.pull-right</code> 类对齐导航链接，两个类靠CSS float实现左/右对齐。
+	使用 <code>.pull-left</code> 或 <code>.pull-right</code> 对齐导航链接，两者都依赖CSS float实现左/右对齐。
       </p>
     </div>
     <div class="span4">
       <h3>基本的标签页</h3>
       <p>
-	对容纳链接的 <code>&lt;ul&gt;</code> 使用 <code>.nav-tabs</code> 类：
+	对存放链接的 <code>&lt;ul&gt;</code> 应用 <code>.nav-tabs</code> ：
       </p>
       <ul class="nav nav-tabs">
         <li class="active"><a href="#">首页</a></li>
@@ -616,9 +616,9 @@
 </pre>
     </div>
     <div class="span4">
-      <h3>基本的胶囊式链接</h3>
+      <h3>基本的胶囊链接</h3>
       <p>
-	HTML相同，使用 <code>.nav-pills</code> 类：
+	HTML不变，使用 <code>.nav-pills</code> ：
       </p>
       <ul class="nav nav-pills">
         <li class="active"><a href="#">首页</a></li>
@@ -637,16 +637,16 @@
     </div>
   </div>
 
-  <h2>叠放式导航 <small>竖直排放标签式和胶囊式链接</small></h2>
+  <h2>叠放式导航 <small>竖直排放标签和胶囊链接</small></h2>
   <div class="row">
     <div class="span4">
       <h3>如何叠放</h3>
       <p>
-	默认情况下标签式和胶囊式链接是水平排放的，使用 <code>.nav-stacked</code> 就可以将其变成竖直叠放。
+	默认情况下标签和胶囊链接是水平排放的，使用 <code>.nav-stacked</code> 就可以将其变成竖直叠放。
       </p>
     </div>
     <div class="span4">
-      <h3>叠放标签</h3>
+      <h3>叠放式标签</h3>
       <ul class="nav nav-tabs nav-stacked">
         <li class="active"><a href="#">首页</a></li>
         <li><a href="#">介绍</a></li>
@@ -659,7 +659,7 @@
 </pre>
     </div>
     <div class="span4">
-      <h3>叠放胶囊式链接</h3>
+      <h3>叠放式胶囊链接</h3>
       <ul class="nav nav-pills nav-stacked">
         <li class="active"><a href="#">首页</a></li>
         <li><a href="#">介绍</a></li>
@@ -676,9 +676,9 @@
   <h2>下拉项 <small>改良的导航组件</small></h2>
   <div class="row">
     <div class="span4">
-      <h3>易用的富菜单</h3>
+      <h3>易用的富内容菜单</h3>
       <p>
-	Bootstrap的标签式和胶囊式链接中的下拉菜单，是非常易用的，仅需极少的HTML和一个轻量级的jQuery插件。
+	在Bootstrap中，创建标签和胶囊链接中的下拉菜单非常方便，仅需极少的HTML和一个轻巧的jQuery插件。
       </p>
       <p>
 	详见 <a href="./javascript.html#tabs">初始化下拉项</a> 。
@@ -727,7 +727,7 @@
 </pre>
     </div>
     <div class="span4">
-      <h3>带下拉的胶囊式链接</h3>
+      <h3>带下拉的胶囊链接</h3>
       <ul class="nav nav-pills">
         <li class="active"><a href="#">首页</a></li>
         <li><a href="#">帮助</a></li>
@@ -773,21 +773,21 @@
   <h2>导航列表 <small>构建简单的叠放式导航，适用于侧边栏</small></h2>
   <div class="row">
     <div class="span4">
-      <h3>应用样式的导航</h3>
+      <h3>应用风格（application-style）的导航</h3>
       <p>
-	导航列表可以简便地创建带有标头(可选)的导航链接组，非常适合用做侧边栏（与OS X中的Finder类似）。
+	导航列表可以便捷地创建带有标头(可选)的导航链接组，非常适合用做侧边栏（与OS X中的Finder类似）。
       </p>
       <p>
-	从结构上讲，与标签式和胶囊式链接无异，使用同样的导航样式，所以用法上和定制上都是一样简洁的。
+	从结构上看，其与标签和胶囊链接无异，都使用同样的导航样式，所以用法和定制都一样简洁。
       </p>
       <hr>
       <h4>使用图标</h4>
       <p>
-	导航列表使用图标很容易。只须添加带有图标类的 <code>&lt;i&gt;</code> 标签即可。
+	在导航列表中使用图标很容易。只须添加带有图标类的 <code>&lt;i&gt;</code> 标签即可。
       </p>
       <h4>水平间隔</h4>
       <p>
-	使用 <code>.divider</code> 类的空列表项显示为一个水平间隔，如下：
+	应用 <code>.divider</code> 的空列表项会显示为一个水平间隔，如下：
       </p>
 <pre class="prettyprint linenums">
 &lt;ul class="nav nav-list"&gt;
@@ -799,7 +799,7 @@
     </div>
     <div class="span4">
       <h3>导航列表例子</h3>
-      <p>对存放一组链接的列表使用 <code>class="nav nav-list"</code> 类:</p>
+      <p>对存放一组链接的列表使用 <code>class="nav nav-list"</code> :</p>
       <div class="well" style="padding: 8px 0;">
         <ul class="nav nav-list">
           <li class="nav-header">列表头</li>
@@ -867,11 +867,11 @@
     <div class="span4">
       <h3>包含哪些东西</h3>
       <p>
-	用一个简单的插件切换标签页的内容，让标签页变得生动起来。
+	我们使用一个简单的插件切换标签页对应的内容，从而让标签页变得生动。
 	Bootstrap 提供了四种样式的标签页：置顶(默认)，居右，置底，居左。
       </p>
       <p>
-	应用时只要更改很少的标记。
+	应用时只需修改很少的标记。
       </p>
     </div>
     <div class="span4">
@@ -901,7 +901,7 @@
     <div class="span4">
       <h3>定制jQuery插件</h3>
       <p>
-	所有标签页都依赖我们提供的轻量级的jQuery插件。详见javascript中的标签页部分的文档。
+	所有标签页都依赖我们提供的轻量级jQuery插件。详见javascript中的关于标签页部分的文档。
       </p>
       <p><a class="btn" href="./javascript.html#tabs">获取javascript &rarr;</a></p>
     </div>
@@ -909,7 +909,7 @@
 
   <h3>简洁的标读</h3>
   <p>
-    使用标签切换页需要一个最外层的div，一组标签，以及一组存放内容的容器
+    使用标签切换页，需要一个最外层的div，一组标签，以及一组存放内容的容器
   </p>
 <pre class="prettyprint linenums">
 &lt;div class="tabbable"&gt;
@@ -928,7 +928,7 @@
 &lt;/div&gt;
 </pre>
 
-  <h3>在多方向上使用标签切换页</h3>
+  <h3>在多个方向上使用标签切换页</h3>
   <div class="row">
     <div class="span4">
       <h4>标签置底</h4>
@@ -1117,7 +1117,7 @@
 </pre>
       <h3>固定导航条</h3>
       <p>
-	只要在最外层的div上应用 <code>.navbar</code> 类，就可以将导航条固定到顶部或是底部。
+	只要在最外层的div上应用 <code>.navbar</code> ，就可以将导航条固定到顶部或是底部。
       </p>
       <div class="row">
         <div class="span4">
@@ -1137,7 +1137,7 @@
       </div><!--/row-->
       <p>
 	附着导航条时，一定要留出一块空白区域，在 <code>&lt;body&gt;</code> 的顶端添加40px或是更多的padding。
-	要保证将这段样式加在Bootstrap核心CSS之后，在响应性CSS（可选的）之前。
+	要保证将这段样式加在Bootstrap核心CSS之后，在响应式CSS（可选的）之前。
       </p>
       <h3>品牌名称</h3>
       <p>
@@ -1162,7 +1162,7 @@
 </pre>
       <h3>导航条中的表单</h3>
       <p>
-	导航条内的表单，用 <code>.navbar-form</code> 类进行样式化，用 <code>.pull-left</code> 或 <code>.pull-right</code> 决定居左还是居中。
+	导航条内的表单，用 <code>.navbar-form</code> 进行样式化，由 <code>.pull-left</code> 或 <code>.pull-right</code> 决定居左还是居中。
       </p>
       <div class="navbar">
 	<div class="navbar-inner">
@@ -1193,7 +1193,7 @@
 &lt;/form&gt;
 </pre>
       <p>
-	对导航栏应用 <code>.navbar-search</code> 类的同时对其中输入框应用 <code>.search-query</code> 类，就会得到另一种搜索样式，从而增强搜索表单的可定制性。
+	对导航栏应用 <code>.navbar-search</code> 的同时对其中的输入框使用 <code>.search-query</code> ，就会得到另一种搜索样式，从而增强搜索表单的可定制性。
       </p>
       <div class="navbar">
 	<div class="navbar-inner">
@@ -1270,7 +1270,7 @@
 &lt;/ul&gt;
 </pre>
       <p>
-	将应用 <code>.divider-vertical</code> 的空列表项插入到两个链接项之间，就得到分隔条：
+	将应用 <code>.divider-vertical</code> 的空列表项插入到两个链接项之间，就会得到分隔条：
       </p>
 <pre class="prettyprint linenums">
 &lt;ul class="nav"&gt;
@@ -1281,11 +1281,11 @@
 </pre>
       <h3>组件对齐</h3>
       <p>
-	使用 <code>.pull-left</code> 或 <code>.pull-right</code> 类对齐链接，搜索表单或是文本。这两个类都使用CSS浮动进行对齐。
+	我们使用 <code>.pull-left</code> 或 <code>.pull-right</code> 对齐链接，搜索表单或是文本。这两个类都使用CSS浮动进行对齐。
       </p>
       <h3>添加下拉菜单</h3>
       <p>
-	在导航中添加上下拉菜单非常简单，不过需要使用 <a href="./javascript.html/#dropdown">下拉javascript插件</a> 。
+	在导航中很容易添加上下拉菜单，要用到 <a href="./javascript.html/#dropdown">下拉javascript插件</a> 。
       </p>
 <pre class="prettyprint linenums">
 &lt;ul class="nav"&gt;
@@ -1302,11 +1302,11 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 </pre>
-      <p><a class="btn" href="./javascript.html#dropdowns">Get the javascript &rarr;</a></p>
+      <p><a class="btn" href="./javascript.html#dropdowns">下载相关javascript &rarr;</a></p>
       <hr>
       <h3>导航条中的文本</h3>
       <p>
-	在导航条中用 <code>&lt;p&gt;</code> 标签包签文本以设置行高和颜色。
+	在导航条中用 <code>&lt;p&gt;</code> 标签包装文本以设置行高和颜色。
       </p>
     </div><!-- /.span -->
   </div><!-- /.row -->
@@ -1326,12 +1326,12 @@
     <div class="span6">
       <h3>为什么使用面包屑导航条</h3>
       <p>
-	面包屑导航栏用于展示用户当前在网站/应用中的位置，但并不是主要的导航。适宜布局清爽，简洁明了。
+	面包屑导航栏用于展示用户当前在网站/应用中的位置，但并不是首要导航。适宜布局清爽，简洁明了的场合。
       </p>
 
       <h3>例子</h3>
       <p>
-	一个简单的例子，可能用在多个页面中。
+	一个简单的例子，可以用在多个页面中。
       </p>
       <ul class="breadcrumb">
         <li class="active">首页</li>
@@ -1381,21 +1381,21 @@
     <div class="span4">
       <h3>何时适用</h3>
       <p>
-	受Rdio启发，我们设计了极为简致的页码样式，适用于应用和搜索结果。页码区域尺寸大，吸引注意力，易于扩展，易于点击。
+	受Rdio启发，我们设计了极为简致的页码样式，适用于应用和搜索结果。页码区域尺寸大，易于吸引注意力，易于扩展，易于点击。
       </p>
       <h3>页码链接的状态</h3>
       <p>
-	Bootstrap使用一组样式类定制页码的状态，<code>.disabled</code> 用于不可以点击链接，而 <code>.active</code> 用于当前页。
+	Bootstrap使用一组样式类定制页码的状态，<code>.disabled</code> 用于不可点击链接，而 <code>.active</code> 用于表示当前页链接。
       </p>
-      <h3>灵活的对齐方式Flexible alignment</h3>
+      <h3>灵活的对齐方式</h3>
       <p>
-	使用 <code>.pagination-centered</code> 和 <code>.pagination-right</code> 可以改变页码的对齐方式。
+	使用 <code>.pagination-centered</code> 和 <code>.pagination-right</code> 可以改变页码的对齐方式，前者居中，后者居右。
       </p>
     </div>
     <div class="span4">
       <h3>例子</h3>
       <p>
-	默认的页码组件非常灵活，有多种形式。
+	默认的页码组件非常灵活，有多种展示形式。
       </p>
       <div class="pagination">
         <ul>
@@ -1438,7 +1438,7 @@
     <div class="span4">
       <h3>标记</h3>
       <p>
-	分页标记只是一个嵌套在 <code>&lt;div&gt;</code> 中的 <code>&lt;ul&gt;</code> 。
+	分页标记是一个嵌套在 <code>&lt;div&gt;</code> 中的 <code>&lt;ul&gt;</code> 。
       </p>
 <pre class="prettyprint linenums">
 &lt;div class="pagination"&gt;
@@ -1457,20 +1457,20 @@
     </div>
   </div><!-- /row -->
 
-  <h2>前后页 <small>便捷的前一页/后一页链接</small></h2>
+  <h2>前后页 <small>简便的前一页/后一页链接</small></h2>
   <div class="row">
     <div class="span4">
       <h3>前后页组件介绍</h3>
       <p>
-	前后页组件是一组简便的分页实现，标记更少，样式更轻，适用于轻量级网站，如博客或是网志。
+	前后页组件是一组简便的分页实现，标记更少，样式更轻，适用于轻量级网站，如博客或网志。
       </p>
-      <h4>可选的无效状态</h4>
+      <h4>禁用状态</h4>
       <p>
 	前后页链接仍使用 <code>.disabled</code> 设置无效状态。
       </p>
     </div>
     <div class="span4">
-      <h3>默认例子</h3>
+      <h3>默认的例子</h3>
       <p>默认情况下，前后页组件居中。</p>
       <ul class="pager">
         <li><a href="#">前一页</a></li>
@@ -1568,7 +1568,7 @@
       </tr>
       <tr>
         <td>
-          <span class="label label-inverse">逆操作</span>
+          <span class="label label-inverse">相反</span>
         </td>
         <td>
           <code>&lt;span class="label label-inverse"&gt;逆操作&lt;/span&gt;</code>
@@ -1662,7 +1662,7 @@
           </tr>
           <tr>
             <td>
-              逆操作
+              相反
             </td>
             <td>
               <span class="badge badge-inverse">10</span>
@@ -1689,12 +1689,12 @@
   <div class="row">
     <div class="span4">
       <p>
-	Bootstrap提供了一个轻量级的，灵活的组件，用以在网站中着重展示内容，称之为"hero unit"/主角单元。
+	Bootstrap提供了一个轻巧又灵活的组件，用以在网站中着重展示内容，称之为"hero unit"/主角单元。
 	适用于市场类或强调内容的网站。
       </p>
       <h3>标记</h3>
       <p>
-	将内容置入带 <code>.hero-unit</code>　的 <code>div</code> ，如下:
+	将内容嵌套入应用 <code>.hero-unit</code>　的 <code>div</code> 中，如下:
       </p>
 <pre class="prettyprint linenums">
 &lt;div class="hero-unit"&gt;
@@ -1712,7 +1712,7 @@
       <div class="hero-unit">
         <h1>陈光诚，汉子！</h1>
         <p>
-	  主角单元Hero Unit是一简单的大屏组件，用于加强内容或信息的吸引力
+	  主角单元Hero Unit是一简单的大屏组件，用于增强内容或信息的吸引力
 	</p>
         <p><a class="btn btn-primary btn-large">了解更多</a></p>
       </div>
@@ -1722,7 +1722,7 @@
   <div class="row">
     <div class="span4">
       <p>
-	简单的 <code>h1</code> 外壳，它会留出恰当的空白，用以在页面中分割内容片段。
+	相当于一个简单的 <code>h1</code> 外壳，它有适当的留白，以便在页面中分割内容片段。
 	还可以在 <code>h1</code> 内嵌入 <code>small</code> ，html元素或是其他组件。
       </p>
     </div>
@@ -1745,7 +1745,7 @@
 ================================================== -->
 <section id="thumbnails">
   <div class="page-header">
-    <h1>缩略项 <small>基于栅格的图象，视频，文字以及更多</small></h1>
+    <h1>缩略项 <small>基于栅格的图象，视频，文字等等</small></h1>
   </div>
 
   <div class="row">
@@ -1780,7 +1780,7 @@
     <div class="span6">
       <h2>高可定制</h2>
       <p>
-	使用少量额外的标记就可以在缩略项中添加任何一种HTML内容，比如标题，段落，或按钮。
+	使用少量其他标记就可以在缩略项中添加任何一种HTML内容，比如标题，段落，或按钮。
       </p>
       <ul class="thumbnails">
         <li class="span3">
@@ -1821,13 +1821,13 @@
     <div class="span4">
       <h3>简洁灵活的标记</h3>
       <p>
-	缩略项标记既简单又灵活&mdash;只须用一个 <code>ul</code> 嵌套多个 <code>li</code> 元素。缩略项内容只须用少量标记包装，可以是任何一种类型。
+	缩略项标记既简单又灵活&mdash;只须用一个 <code>ul</code> 嵌套多个 <code>li</code> 元素。缩略项内容可以是任何一种HTML内容，只须少许标记。
       </p>
     </div>
     <div class="span4">
       <h3>使用栅格列确定大小</h3>
       <p>
-	新版本中，缩略项组件使用已有的栅格类&mdash;诸如 <code>.span2</code> 或 <code>.span3</code> &mdash;确定缩略项的尺寸。
+	新版本中，缩略项组件使用栅格类&mdash;诸如 <code>.span2</code> 或 <code>.span3</code> &mdash;确定缩略项的尺寸。
       </p>
     </div>
   </div>
@@ -1849,7 +1849,7 @@
 &lt;/ul&gt;
 </pre>
       <p>
-	自定义缩略项内的HTML内容仅须更改少许标记。将 <code>&lt;a&gt;</code> 变成 <code>&lt;div&gt;</code> 即可指定块状内容，如下：
+	缩略项中的HTML内容仅须更改少许标记。将 <code>&lt;a&gt;</code> 变成 <code>&lt;div&gt;</code> 即可定制块状内容，如下：
       </p>
 <pre class="prettyprint linenums">
 &lt;ul class="thumbnails"&gt;
@@ -1867,7 +1867,7 @@
     <div class="span6">
       <h2>更多例子</h2>
       <p>
-	可以尝试更多栅格类，混用不同尺寸。
+	尝试更多栅格类，混用不同的尺寸。
       </p>
       <ul class="thumbnails">
         <li class="span4">
@@ -1912,32 +1912,32 @@
 ================================================== -->
 <section id="alerts">
   <div class="page-header">
-    <h1>通知 <small>为成功，警告和错误消息指定样式</small></h1>
+    <h1>通知 <small>给成功，警告和错误消息指定样式</small></h1>
   </div>
 
   <h2>简洁的默认样式</h2>
   <div class="row">
     <div class="span4">
-      <h3>重写基类</h3>
+      <h3>重写过的基类</h3>
       <p>
 	Bootstrap 2 简化了基类，用 <code>.alert</code> 代替了 <code>.alert-message</code> 。
 	并对最低要求的标记也进行了精简&mdash;默认只使用 <code>&lt;div&gt;</code> ，而无须嵌套 <code>&lt;p&gt;</code> 。
       </p>
-      <h3>单一的通知消息</h3>
+      <h3>统一后的通知消息</h3>
       <p>
 	为了得到代码少而质量高的组件，我们统一了块状通知和普通通知的外观。原有的块状样式类被命名为 <code>.alert-block</code> ，其padding更大，通常容纳文本也更多。
       </p>
       <hr>
       <h3>与javascript配合良好</h3>
       <p>
-	Bootstrapm包含一个很不错的jQuery插件，用以支持通知消息，能够很方便快速地关闭通知。
+	Bootstrap用一个很好的jQuery插件驱动通知消息，方便用户快速地关闭通知。
       </p>
       <p><a class="btn js-btn" href="./javascript.html#alerts">Get the plugin &raquo;</a></p>
     </div>
     <div class="span8">
       <h3>通知的例子</h3>
       <p>
-	在div中嵌套信息，并放置一个可选的关闭图标。
+	在div中嵌套信息，并放置一个关闭图标。
       </p>
       <div class="alert">
         <a class="close" data-dismiss="alert">&times;</a>
@@ -1950,7 +1950,7 @@
 &lt;/div&gt;
 </pre>
       <p>
-	进度条有两个效果补充类：
+	进度条有两个效果加强类：
 	<code>.alert-block</code> 用于提供更大padding，适合容纳更多文本组件；而 <code>.alert-heading</code> 用以修饰标题。
       </p>
       <div class="alert alert-block">
@@ -1970,7 +1970,7 @@
     </div>
   </div>
 
-  <h2>语境下的补充 <small>使用不同的类改变通知的涵义</small></h2>
+  <h2>语境下的强化 <small>根据通知的涵义使用不同的类</small></h2>
   <div class="row">
     <div class="span4">
       <h3>危险/错误</h3>
@@ -2018,7 +2018,7 @@
 ================================================== -->
 <section id="progress">
   <div class="page-header">
-    <h1>进度条 <small>用于载入，重定向或动作状态</small></h1>
+    <h1>进度条 <small>用于载入，重定向或表示动作状态</small></h1>
   </div>
 
   <h2>例子和标记</h2>
@@ -2124,13 +2124,13 @@
 	进度条使用CSS3过渡效果，因此用javascript动态调整进度条宽度时，效果会非常平滑。
       </p>
       <p>
-	如果使用 <code>.active</code> ，那么 <code>.progress-striped</code> 导航栏就会呈现自左向右的跑马灯条纹动画效果。
+	如果使用 <code>.active</code> ，那么 <code>.progress-striped</code> 导航栏就会呈现自左向右的条纹跑马灯动画效果。
       </p>
     </div>
     <div class="span3">
       <h3>浏览器支持</h3>
       <p>
-	进度条使用CSS3渐变，过渡，动画以实现所有效果。IE7到IE9，以前某些老版本的Firefox还不完全支持这些特性。
+	进度条使用CSS3渐变/过渡/动画以实现所有效果。IE7到IE9，以及某些老版本的Firefox还不能完全支持这些特性。
       </p>
       <p>
 	目前，Opera和IE还不支持动画效果。
@@ -2154,7 +2154,7 @@
     <div class="span4">
       <h2>消息墙</h2>
       <p>
-	用来给某个元素添加插图效果。
+	用来给某个元素添加包框效果。
       </p>
       <div class="well">
 	来看呀来看呀，这就是消息墙！
@@ -2179,11 +2179,12 @@
 
      <!-- Footer
       ================================================== -->
-      <footer class="footer">
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>Designed and built with all the love in the world <a href="http://twitter.com/twitter" target="_blank">@twitter</a> by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
-        <p>Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-        <p>Icons from <a href="http://glyphicons.com">Glyphicons Free</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+      <footer class="footer"> 
+	<p class="pull-right"><a href="#">回到顶端</a></p>
+        <p>我们倾注世间之爱于设计与创作 <a href="http://twitter.com/twitter" target="_blank">@twitter</a> by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>，由<a href="http://weibo.com/tvlikedev">Tvlike.me/TV来客开发者</a>翻译</p>
+	<p>感谢我太太在翻译期间提供的专业翻译帮助，与此同时，她在也创作官案悬疑小说 <a href="http://www.motie.com/book/9214">《大明御史传》</a></p>
+        <p>开源依照 <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a> 发布。 文档依照 <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a> 发布。</p>
+        <p>Icons取自 <a href="http://glyphicons.com">Glyphicons Free</a>，授权依照 <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>。</p>
       </footer>
 
     </div><!-- /container -->
@@ -2192,8 +2193,8 @@
 
     <!-- Le javascript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <!-- Placed at the end of the document so the pages load faster
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script> -->
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/google-code-prettify/prettify.js"></script>
     <script src="assets/js/bootstrap-transition.js"></script>
